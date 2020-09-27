@@ -1,0 +1,18 @@
+---
+layout: minimal
+title: "About me"
+permalink: /about/index.html
+description: "Some description about Victor Igor..."
+---
+
+<img itemprop="image" class="img-rounded about_perfil" src=" https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-9/27331974_1776726152634654_6976966798223691907_n.jpg?_nc_cat=104&_nc_ht=scontent-bom1-2.xx&oh=4a402fd993f69e01000eb7cb14bff731&oe=5CCD06A9" alt="My profile">
+
+<h2>My projects</h2>
+
+<div class="aboutme">
+	<ul class="recent">
+		{% for project in site.projects %}
+	    	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
+	    {% endfor %}
+	</ul>
+</div>

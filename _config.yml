@@ -1,0 +1,76 @@
+# Site settings
+title: Abdulahad - Profile
+description: "A blog about Abdulahad ..."
+baseurl: "/profile" # for test: remove string '/space-jekyll-template' to ''
+url: "http://Abduliitr.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+
+# User settings
+username: ABDULAHAD
+user_title: Abdulahad- FrontEnd
+email: abdul.thomso@gmail.com
+twitter_username: Abdulah78723029
+facebook_username: qadbury0123456789
+github_username: Abduliitr
+gplus_username: 1/104502991413079583593
+linkedin_public_url: abdulahad-khan-profile/ # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+disqus_username: 
+profile_picture: https://pbs.twimg.com/profile_images/1065332622711238656/na0BQk5f_400x400.jpg
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  section_1:
+    - title: home--
+      url: /profile
+      key_trigger: 1
+    - title: my posts
+      url: /profile/posts
+      key_trigger: 2
+    - title: series
+      url: /profile/series
+      key_trigger: 3
+    - title: tags
+      url: /profile/tags
+      key_trigger: 4
+    - title: about me
+      url: /profile/about
+      key_trigger: 5
+  section_2:
+    - title: github
+      url: http://www.github.com/abduliitr
+      new_tab: true
+      key_trigger: g
+    - title: twitter
+      url: https://twitter.com/Abdulah78723029
+      key_trigger: t
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
+
+# projects in header index
+projects:
+  
+  - name: homework-website
+    url: https://abduliitr.github.io/homework/
+  - name: Calfcode-company website
+    url: https://calfcode.com
+  - name: LoveActually Website
+    url: https://abduliitr.github.io/loveActually/
+  # - name: fluany
+  #   url: https://github.com/fluany/fluany 
+#  - name: profile-page
+#    url: https://abduliitr.github.io/profile/   
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
