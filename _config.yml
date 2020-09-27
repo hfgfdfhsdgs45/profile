@@ -1,16 +1,16 @@
 # Site settings
-title: Abdulahad - Profile
-description: "A blog about Abdulahad ..."
+title: Heena - Profile
+description: "A blog about Heena ..."
 baseurl: "/profile" # for test: remove string '/space-jekyll-template' to ''
-url: "http://Abduliitr.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "http://khanheenu111.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 
 # User settings
-username: ABDULAHAD
-user_title: Abdulahad- FrontEnd
-email: abdul.thomso@gmail.com
+username: Heena
+user_title: Heena- FrontEnd
+email: khanheenu111@gmail.com
 twitter_username: Abdulah78723029
-facebook_username: qadbury0123456789
-github_username: Abduliitr
+facebook_username: 100046202251856
+github_username: khanheenu111
 gplus_username: 1/104502991413079583593
 linkedin_public_url: abdulahad-khan-profile/ # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 disqus_username: 
@@ -48,12 +48,12 @@ links:
       key_trigger: 5
   section_2:
     - title: github
-      url: http://www.github.com/abduliitr
+      url: http://www.github.com/khanheenu111
       new_tab: true
       key_trigger: g
-    - title: twitter
-      url: https://twitter.com/Abdulah78723029
-      key_trigger: t
+    # - title: twitter
+    #   url: https://twitter.com/Abdulah78723029
+    #   key_trigger: t
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
@@ -61,14 +61,14 @@ links:
 # projects in header index
 projects:
   
-  - name: homework-website
-    url: https://abduliitr.github.io/homework/
-  - name: Calfcode-company website
-    url: https://calfcode.com
-  - name: LoveActually Website
-    url: https://abduliitr.github.io/loveActually/
-  # - name: fluany
-  #   url: https://github.com/fluany/fluany 
+  - name: Reading
+    url: /
+  - name: Guitar 
+    url: /
+#   - name: LoveActually Website
+#     url: https://abduliitr.github.io/loveActually/
+#   - name: fluany
+#     url: https://github.com/fluany/fluany 
 #  - name: profile-page
 #    url: https://abduliitr.github.io/profile/   
 
