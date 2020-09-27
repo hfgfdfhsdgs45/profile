@@ -4,5 +4,5 @@ A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mo
 
 # Site/User Settings
 
-# abduliitr.github.io/profile/
+# khanheenu111.github.io/profile/
 
